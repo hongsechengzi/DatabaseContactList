@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C201F818194D2EE4009A1241 /* UpdateContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C201F817194D2EE4009A1241 /* UpdateContactViewController.m */; };
+		C28F31E2194BF5CF001E594C /* ContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C28F31E1194BF5CF001E594C /* ContactCell.m */; };
 		C2B69E16194B28D000BB6B7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B69E15194B28D000BB6B7C /* Foundation.framework */; };
 		C2B69E18194B28D000BB6B7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B69E17194B28D000BB6B7C /* CoreGraphics.framework */; };
 		C2B69E1A194B28D000BB6B7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B69E19194B28D000BB6B7C /* UIKit.framework */; };
@@ -19,6 +21,14 @@
 		C2B69E31194B28D000BB6B7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B69E19194B28D000BB6B7C /* UIKit.framework */; };
 		C2B69E39194B28D000BB6B7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2B69E37194B28D000BB6B7C /* InfoPlist.strings */; };
 		C2B69E3B194B28D000BB6B7C /* __16______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B69E3A194B28D000BB6B7C /* __16______Tests.m */; };
+		C2B69E4F194B29AD00BB6B7C /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B69E4E194B29AD00BB6B7C /* ContactListViewController.m */; };
+		C2B69E52194B2BDF00BB6B7C /* ContactPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B69E51194B2BDF00BB6B7C /* ContactPerson.m */; };
+		C2B69E55194B2F1600BB6B7C /* DataHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B69E54194B2F1600BB6B7C /* DataHandle.m */; };
+		C2B69E58194B331A00BB6B7C /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B69E57194B331A00BB6B7C /* ContactDetailViewController.m */; };
+		C2B69E5B194B341100BB6B7C /* LTView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B69E5A194B341100BB6B7C /* LTView.m */; };
+		C2B69E5E194B343700BB6B7C /* NSString+Characters.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B69E5D194B343700BB6B7C /* NSString+Characters.m */; };
+		C2B69E64194B360B00BB6B7C /* ContactDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B69E63194B360B00BB6B7C /* ContactDetailView.m */; };
+		C2B69E66194B3ABD00BB6B7C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B69E65194B3ABD00BB6B7C /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C201F816194D2EE4009A1241 /* UpdateContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateContactViewController.h; sourceTree = "<group>"; };
+		C201F817194D2EE4009A1241 /* UpdateContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateContactViewController.m; sourceTree = "<group>"; };
+		C28F31E0194BF5CF001E594C /* ContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCell.h; sourceTree = "<group>"; };
+		C28F31E1194BF5CF001E594C /* ContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCell.m; sourceTree = "<group>"; };
 		C2B69E12194B28D000BB6B7C /* 作业16数据库通讯录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "作业16数据库通讯录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B69E15194B28D000BB6B7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2B69E17194B28D000BB6B7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +62,21 @@
 		C2B69E36194B28D000BB6B7C /* 作业16数据库通讯录Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "作业16数据库通讯录Tests-Info.plist"; sourceTree = "<group>"; };
 		C2B69E38194B28D000BB6B7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2B69E3A194B28D000BB6B7C /* __16______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__16______Tests.m"; sourceTree = "<group>"; };
+		C2B69E4D194B29AD00BB6B7C /* ContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListViewController.h; sourceTree = "<group>"; };
+		C2B69E4E194B29AD00BB6B7C /* ContactListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListViewController.m; sourceTree = "<group>"; };
+		C2B69E50194B2BDF00BB6B7C /* ContactPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactPerson.h; sourceTree = "<group>"; };
+		C2B69E51194B2BDF00BB6B7C /* ContactPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactPerson.m; sourceTree = "<group>"; };
+		C2B69E53194B2F1600BB6B7C /* DataHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHandle.h; sourceTree = "<group>"; };
+		C2B69E54194B2F1600BB6B7C /* DataHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHandle.m; sourceTree = "<group>"; };
+		C2B69E56194B331A00BB6B7C /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
+		C2B69E57194B331A00BB6B7C /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
+		C2B69E59194B341100BB6B7C /* LTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTView.h; sourceTree = "<group>"; };
+		C2B69E5A194B341100BB6B7C /* LTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTView.m; sourceTree = "<group>"; };
+		C2B69E5C194B343700BB6B7C /* NSString+Characters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Characters.h"; sourceTree = "<group>"; };
+		C2B69E5D194B343700BB6B7C /* NSString+Characters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Characters.m"; sourceTree = "<group>"; };
+		C2B69E62194B360B00BB6B7C /* ContactDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailView.h; sourceTree = "<group>"; };
+		C2B69E63194B360B00BB6B7C /* ContactDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailView.m; sourceTree = "<group>"; };
+		C2B69E65194B3ABD00BB6B7C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B69E66194B3ABD00BB6B7C /* libsqlite3.0.dylib in Frameworks */,
 				C2B69E18194B28D000BB6B7C /* CoreGraphics.framework in Frameworks */,
 				C2B69E1A194B28D000BB6B7C /* UIKit.framework in Frameworks */,
 				C2B69E16194B28D000BB6B7C /* Foundation.framework in Frameworks */,
@@ -96,6 +126,7 @@
 		C2B69E14194B28D000BB6B7C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2B69E65194B3ABD00BB6B7C /* libsqlite3.0.dylib */,
 				C2B69E15194B28D000BB6B7C /* Foundation.framework */,
 				C2B69E17194B28D000BB6B7C /* CoreGraphics.framework */,
 				C2B69E19194B28D000BB6B7C /* UIKit.framework */,
@@ -109,6 +140,12 @@
 			children = (
 				C2B69E24194B28D000BB6B7C /* AppDelegate.h */,
 				C2B69E25194B28D000BB6B7C /* AppDelegate.m */,
+				C2B69E53194B2F1600BB6B7C /* DataHandle.h */,
+				C2B69E54194B2F1600BB6B7C /* DataHandle.m */,
+				C2B69E5C194B343700BB6B7C /* NSString+Characters.h */,
+				C2B69E5D194B343700BB6B7C /* NSString+Characters.m */,
+				C2B69E4B194B29AD00BB6B7C /* ContactDetail */,
+				C2B69E4C194B29AD00BB6B7C /* ContactList */,
 				C2B69E27194B28D000BB6B7C /* Images.xcassets */,
 				C2B69E1C194B28D000BB6B7C /* Supporting Files */,
 			);
@@ -142,6 +179,34 @@
 				C2B69E37194B28D000BB6B7C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2B69E4B194B29AD00BB6B7C /* ContactDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C2B69E56194B331A00BB6B7C /* ContactDetailViewController.h */,
+				C2B69E57194B331A00BB6B7C /* ContactDetailViewController.m */,
+				C201F816194D2EE4009A1241 /* UpdateContactViewController.h */,
+				C201F817194D2EE4009A1241 /* UpdateContactViewController.m */,
+				C2B69E62194B360B00BB6B7C /* ContactDetailView.h */,
+				C2B69E63194B360B00BB6B7C /* ContactDetailView.m */,
+				C2B69E59194B341100BB6B7C /* LTView.h */,
+				C2B69E5A194B341100BB6B7C /* LTView.m */,
+			);
+			path = ContactDetail;
+			sourceTree = "<group>";
+		};
+		C2B69E4C194B29AD00BB6B7C /* ContactList */ = {
+			isa = PBXGroup;
+			children = (
+				C2B69E4D194B29AD00BB6B7C /* ContactListViewController.h */,
+				C2B69E4E194B29AD00BB6B7C /* ContactListViewController.m */,
+				C28F31E0194BF5CF001E594C /* ContactCell.h */,
+				C28F31E1194BF5CF001E594C /* ContactCell.m */,
+				C2B69E50194B2BDF00BB6B7C /* ContactPerson.h */,
+				C2B69E51194B2BDF00BB6B7C /* ContactPerson.m */,
+			);
+			path = ContactList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +304,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28F31E2194BF5CF001E594C /* ContactCell.m in Sources */,
+				C2B69E64194B360B00BB6B7C /* ContactDetailView.m in Sources */,
+				C2B69E58194B331A00BB6B7C /* ContactDetailViewController.m in Sources */,
 				C2B69E26194B28D000BB6B7C /* AppDelegate.m in Sources */,
+				C2B69E52194B2BDF00BB6B7C /* ContactPerson.m in Sources */,
+				C201F818194D2EE4009A1241 /* UpdateContactViewController.m in Sources */,
+				C2B69E5E194B343700BB6B7C /* NSString+Characters.m in Sources */,
+				C2B69E4F194B29AD00BB6B7C /* ContactListViewController.m in Sources */,
+				C2B69E55194B2F1600BB6B7C /* DataHandle.m in Sources */,
 				C2B69E22194B28D000BB6B7C /* main.m in Sources */,
+				C2B69E5B194B341100BB6B7C /* LTView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "作业16数据库通讯录/作业16数据库通讯录-Prefix.pch";
 				INFOPLIST_FILE = "作业16数据库通讯录/作业16数据库通讯录-Info.plist";
@@ -370,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "作业16数据库通讯录/作业16数据库通讯录-Prefix.pch";
 				INFOPLIST_FILE = "作业16数据库通讯录/作业16数据库通讯录-Info.plist";
@@ -437,6 +513,7 @@
 				C2B69E40194B28D000BB6B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2B69E41194B28D000BB6B7C /* Build configuration list for PBXNativeTarget "作业16数据库通讯录Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +522,7 @@
 				C2B69E43194B28D000BB6B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

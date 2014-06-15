@@ -7,15 +7,29 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ContactListViewController.h"
 @implementation AppDelegate
+- (void)dealloc
+{
+    RELEASE_SAFELY(_window);
+    [super dealloc];
 
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    ContactListViewController * contactListVC = [[ContactListViewController alloc] initWithStyle:UITableViewStylePlain];
+    UINavigationController * rootNC = [[UINavigationController alloc] initWithRootViewController:contactListVC];
+    self.window.rootViewController = rootNC;
+    [contactListVC release];
+    [rootNC release];
+    
+    
+    
+    
     return YES;
 }
 
