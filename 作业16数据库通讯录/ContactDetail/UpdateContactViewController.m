@@ -39,7 +39,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    //测试
     self.contactDetailView.backgroundColor = [UIColor whiteColor];
      self.navigationItem.title = _person.name;
     [self uneditContactPersonInformation];
